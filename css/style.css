@@ -1,0 +1,86 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    
+}
+
+
+/* ##################################MENU################################## */
+
+header {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    position: 0;
+    left: 0;
+    margin-top: 0px;
+}
+
+#cabecalho nav {
+    display: flex;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+header img {
+    width: 100px;
+    height: 103;
+    margin-left: 40px;
+}
+
+header li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 100px;
+    width: 100%;
+}
+
+header li ul {
+    padding: 25px;
+}
+
+header li ul a {
+    text-decoration: none;
+    color: rgb(248, 147, 31);
+    font-size: 18px;
+    /* text-shadow: 2px 1px rgba(0, 0, 0, 0.2); */
+}
+
+header li ul a:hover {
+    text-decoration: none;
+    color: rgb(141, 78, 7);
+    font-size: 20px;
+}
+
+/* ################################## FIRST IMAGE ################################## */
+
+#imagens1 img{
+    width: 100%;
+    height: 800px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ################################## FIRST SECTION ################################## */
+
+#main-avatar {
+    position: relative;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.quadrado-branco {
+    display: flex;
+}
+
+.coluna-direita {
+    margin: 130px auto;
+}
