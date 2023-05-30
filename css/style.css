@@ -1,86 +1,81 @@
-html {
-    padding: 0;
-    margin: 0;
-}
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Titillium Web', sans-serif;
 }
 
-#container {
-    
-}
-
-
-/* ##################################MENU################################## */
+/* Menu */
 
 header {
     width: 100%;
-    background-color: white;
     position: fixed;
-    position: 0;
-    left: 0;
-    margin-top: 0px;
-}
-
-#cabecalho nav {
-    display: flex;
-    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    background-color: #ffffff;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-header img {
-    width: 100px;
-    height: 103;
-    margin-left: 40px;
+.nav-container {
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;;
 }
 
-header li {
+.nav-menu {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    gap: 760px;
+}
+
+.nav-menu img {
+    width: 140px;
+}
+
+.nav-menu {
+    
+}
+
+.nav-menu ul {
+    list-style: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-left: 100px;
-    width: 100%;
+    gap: 30px;
 }
 
-header li ul {
-    padding: 25px;
-}
-
-header li ul a {
-    text-decoration: none;
-    color: rgb(248, 147, 31);
-    font-size: 18px;
-    /* text-shadow: 2px 1px rgba(0, 0, 0, 0.2); */
-}
-
-header li ul a:hover {
-    text-decoration: none;
-    color: rgb(141, 78, 7);
+.nav-menu ul li {
     font-size: 20px;
+    font-weight: 900px;
 }
 
-/* ################################## FIRST IMAGE ################################## */
-
-#imagens1 img{
-    width: 100%;
-    height: 800px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+.nav-menu ul li a {
+    color: black;
+    font-size: 20px;
+    font-weight: 900px;
+    text-decoration: none;
 }
 
 
-/* ################################## FIRST SECTION ################################## */
-
-#main-avatar {
-    position: relative;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+.nav-menu ul li a:hover{
+    color: #ff9400;
+    font-size: 20px;
+    font-weight: 900px;
+    transition: .3s;
 }
 
-.quadrado-branco {
-    display: flex;
+/* Main content */
+
+.main-container {
+    padding-top: 150px;
+    padding-left: 60px;
 }
 
-.coluna-direita {
-    margin: 130px auto;
+.main-content img {
+    width: 412;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+}
+
+.main-form {
+   padding-top: 50px; 
 }
